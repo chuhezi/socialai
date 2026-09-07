@@ -1,0 +1,9 @@
+.search-bar { width:100%; padding:22px 24px; background:#eaf0e3; border:1px solid #d8e2d1; border-radius:8px; }
+.search-bar .ant-input-search { max-width:720px; }
+.search-bar .ant-input-search .ant-input { font-size:14px; }
+.search-bar .ant-input-search-button { height:44px; border-radius:0 5px 5px 0!important; padding:0 25px; }
+.search-options { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:15px; }
+.search-options .ant-radio-wrapper { font-size:12px; margin-right:20px; }
+.sort-label { color:var(--muted); font-size:11px; white-space:nowrap; }
+.error-msg { color:var(--danger); font-size:12px; margin:10px 0 0; }
+@media(max-width:680px) { .search-bar{padding:18px 16px}.search-options{display:block}.search-options .ant-radio-wrapper{margin:0 12px 8px 0;font-size:11px}.sort-label{display:block;margin-top:2px}.search-bar .ant-input-search-button{padding:0 14px} }

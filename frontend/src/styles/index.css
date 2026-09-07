@@ -1,0 +1,55 @@
+@import "yet-another-react-lightbox/styles.css";
+@import "yet-another-react-lightbox/plugins/thumbnails.css";
+@import "~antd/dist/antd.css";
+@import "./App.css";
+@import "./Collection.css";
+@import "./SearchBar.css";
+:root { --paper:#f7f7ef; --surface:#fffef9; --ink:#163d39; --muted:#617671; --teal:#287c72; --teal-dark:#1d6059; --mint:#e4efdf; --line:#d7e1d9; --danger:#b5483e; --font-ui:"Avenir Next",Avenir,"Segoe UI","Helvetica Neue",Arial,sans-serif; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--font-ui); font-size:14px; -webkit-font-smoothing:antialiased; }
+a { color:var(--teal); } a:hover { color:var(--teal-dark); }
+button,input,textarea { font-family:inherit; }
+button:focus-visible,a:focus-visible { outline:3px solid #77b8a8; outline-offset:4px; }
+::selection { background:#c2decd; color:var(--ink); }
+h1,h2,h3,h4 { color:var(--ink); }
+.ant-btn { height:42px; padding:0 18px; border-radius:5px; border-color:var(--line); color:var(--ink); font-family:var(--font-ui); font-weight:600; box-shadow:none; }
+.ant-btn:hover,.ant-btn:focus { color:var(--teal); border-color:var(--teal); }
+.ant-btn-primary { background:var(--teal); border-color:var(--teal); color:white; }
+.ant-btn-primary:hover,.ant-btn-primary:focus { background:var(--teal-dark); border-color:var(--teal-dark); color:white; }
+.ant-btn-dangerous.ant-btn-primary { background:var(--danger); border-color:var(--danger); }
+.ant-btn-dangerous.ant-btn-primary:hover { background:#96392f; border-color:#96392f; }
+.ant-btn[disabled],.ant-btn[disabled]:hover { background:#edf0e9; color:#88928d; border-color:#dce1d9; }
+.ant-btn-text { border-color:transparent; background:transparent; }
+.ant-btn-text:hover { border-color:transparent; background:#e6eee4; }
+.ant-input,.ant-input-affix-wrapper { border-color:var(--line); border-radius:5px; font-family:var(--font-ui); color:var(--ink); background:var(--surface); font-size:14px; }
+.ant-input { padding:10px 12px; } .ant-input-affix-wrapper { padding:8px 12px; }
+.ant-input-affix-wrapper > input.ant-input { background:transparent; }
+.ant-input:hover,.ant-input:focus,.ant-input-affix-wrapper:hover,.ant-input-affix-wrapper-focused { border-color:var(--teal); }
+.ant-input:focus,.ant-input-affix-wrapper-focused { box-shadow:0 0 0 2px #287c7215; }
+.ant-form-item-label > label { color:var(--ink); font-weight:600; }
+.ant-radio-checked .ant-radio-inner { border-color:var(--teal); }
+.ant-radio-inner::after { background:var(--teal); }
+.ant-radio-wrapper { color:var(--muted); }
+.ant-radio-wrapper-checked { color:var(--teal-dark); }
+.ant-tabs-tab { color:var(--muted); font-size:16px; font-weight:600; padding:18px 0; }
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn,.ant-tabs-tab:hover { color:var(--teal-dark); }
+.ant-tabs-ink-bar { background:var(--teal); }
+.ant-tabs-top > .ant-tabs-nav::before { border-color:var(--line); }
+.ant-modal-content,.ant-modal-header { background:var(--surface); border-radius:10px; }
+.ant-modal-header { border-color:var(--line); padding:23px 24px 18px; }
+.ant-modal-title { font-size:21px; font-weight:650; color:var(--ink); }
+.ant-modal-body { padding:22px 24px; }
+.ant-modal-footer { border-color:var(--line); padding:16px 24px; }
+.ant-modal-mask { background:#10292580; backdrop-filter:blur(3px); }
+.ant-upload.ant-upload-drag { background:#f0f5ec; border-color:#b6cdc0; border-radius:6px; }
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon { color:var(--teal); }
+.ant-upload.ant-upload-drag:hover { border-color:var(--teal); }
+.ant-spin-dot-item { background:var(--teal); }
+.ant-message-notice-content { border-radius:6px; }
+.ant-dropdown-menu { border:1px solid var(--line); border-radius:6px; padding:6px; }
+.ant-dropdown-menu-item { padding:9px 12px; }
+.ant-dropdown-menu-item:hover { background:#edf3e8; }
+.ant-dropdown-menu-item-danger { color:var(--danger); }
+.muted { color:var(--muted); line-height:1.7; }
+.eyebrow,.section-number { font-size:11px; font-weight:700; letter-spacing:.17em; color:var(--teal); }
+.field-label { display:block; font-size:12px; font-weight:600; color:var(--muted); margin-bottom:9px; }

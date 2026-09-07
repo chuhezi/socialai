@@ -1,0 +1,25 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*service-account*.json
+*credentials*.json
+# Generated files
+node_modules/
+build/
+coverage/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.zip
+# Keep personal recordings and source media outside the repository
+*.mp4
+*.mov
+*.MP4
+*.MOV
+
+# Reviewed public demo
+!docs/demo/socialai-demo.mp4
