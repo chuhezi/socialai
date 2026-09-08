@@ -1,6 +1,8 @@
 # Demo walkthrough
 
-[Watch / download the demo](demo/socialai-demo.mp4)
+[Download demo (MP4)](https://github.com/chuhezi/socialai/raw/refs/heads/main/docs/demo/socialai-demo.mp4)
+
+GitHub does not preview this video on the repository file page. Download it and open it in your video player.
 
 The public recording is approximately 3 minutes 36 seconds and demonstrates:
 

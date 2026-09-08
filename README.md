@@ -2,7 +2,7 @@
 
 A React and Go application for generating images with AI and sharing image and video posts. A responsive teal-and-ivory interface brings creation, a searchable gallery, and post interactions into one workflow.
 
-**[Watch / download the demo](docs/demo/socialai-demo.mp4)** · [Demo walkthrough](docs/DEMO.md)
+**[Download demo (MP4)](https://github.com/chuhezi/socialai/raw/refs/heads/main/docs/demo/socialai-demo.mp4)** · [Demo walkthrough](docs/DEMO.md)
 
 ![SocialAI sign-in screen](docs/screenshots/login.jpg)
 
